@@ -1,0 +1,26 @@
+/* @charset "euc-jp"; */
+@charset "UTF-8";
+
+body {
+  /*ページ全体の背景色をベージュに*/
+  background: #CCCC99;
+  /*全文字を中央揃えに*/
+  text-align: center;
+}
+h2 {
+  /*h1タグ内の文字色を変える*/
+  color: black;
+}
+#headline {
+  /*id="headline"の下に点線を引く*/
+  border-bottom: dotted 2px #f89174;
+}
+#headline p {
+  /*id="headline"の中のフォントサイズを1.2倍に*/
+  font-size: 1.2em;
+}
+
+a {
+  /*リンクの文字色をグレイに*/
+  color:black;
+}
